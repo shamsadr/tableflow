@@ -165,16 +165,12 @@ st.markdown("""
   #MainMenu, footer, header { visibility: hidden; }
   .block-container { padding-top: 1rem; }
 
-  /* Keep sidebar toggle button always visible */
+  /* Permanently hide sidebar collapse button */
     [data-testid="collapsedControl"] {
-      display: block !important;
-      color: #E8591A !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
     }
-    /* Disable sidebar collapse button */
-      [data-testid="collapsedControl"] {
-        display: none !important;
-      }
-</style>
+  </style>
 """, unsafe_allow_html=True)
 
 # ── Load presets ──────────────────────────────────────────────────────────────
