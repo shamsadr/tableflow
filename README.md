@@ -3,7 +3,7 @@
 > **"How many servers do I actually need right now?"**
 > TableFlow answers this question using queueing theory and discrete-event simulation — and translates the math into dollars a restaurant operator can act on.
 
-**[Live Demo →](https://your-streamlit-url-here)** | Built with Python, SimPy, Streamlit, Plotly
+**[Live Demo →](https://tableflow-app.streamlit.app/)** | Built with Python, SimPy, Streamlit, Plotly
 
 ---
 
