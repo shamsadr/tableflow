@@ -155,7 +155,7 @@ tableflow/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/tableflow.git
+git clone https://github.com/shamsadr/tableflow.git
 cd tableflow
 
 # Create and activate a virtual environment
@@ -224,7 +224,7 @@ Adding one server vs. the 6-server baseline: **+$650 per service period**. At 3 
 
 ## Interview Explanation
 
-> "I modeled a restaurant floor as an M/M/c queue — customers arrive as a Poisson process, service times are exponential, and c is the number of servers. The Erlang C formula gives us the probability any customer waits and the average wait time analytically, in closed form. I sweep across all staffing levels, attach a cost/revenue model to translate wait time into dollars, and surface the profit-maximizing server count. A SimPy simulation runs in parallel to validate the analytical results and generate the full wait time distribution. The whole thing lives in a Streamlit dashboard a restaurant operator can use without knowing any queueing theory."
+> "I modeled a restaurant floor as an M/M/c queue — customers arrive as a Poisson process, service times are exponential, and c is the number of servers. The Erlang C formula gives us the probability that any customer waits and the average wait time analytically, in closed form. I sweep across all staffing levels, attach a cost/revenue model to translate wait time into dollars, and surface the profit-maximizing server count. A SimPy simulation runs in parallel to validate the analytical results and generate the full wait time distribution. The whole thing lives in a Streamlit dashboard a restaurant operator can use without knowing any queueing theory."
 
 ---
 
