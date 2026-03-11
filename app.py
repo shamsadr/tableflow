@@ -208,8 +208,9 @@ with st.sidebar:
     lam = st.slider("Arrival rate (covers/hour)", 5, 120,
                      p["lam"] if preset_choice != "Custom" else 20,
                      help="How many customers arrive per hour on average")
-    mu  = st.slider("Service rate per server (covers/hour)", 1, 60,
-                     p["mu"] if preset_choice != "Custom" else 4,
+    mu  = st.slider("Service rate per server (covers/hour)", 0.50, 60,
+                     float(p["mu"]) if preset_choice != "Custom" else 4.0,
+                     step = 0.50,
                      help="How many customers one server can handle per hour")
     c   = st.slider("Current servers on floor", 1, 15,
                      p["c"] if preset_choice != "Custom" else 5)
