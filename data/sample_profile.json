@@ -1,0 +1,52 @@
+{
+  "presets": {
+    "Fast Casual (Chipotle-style)": {
+      "lam": 40,
+      "mu": 15,
+      "c": 3,
+      "hourly_labor_cost": 18,
+      "revenue_per_cover": 12,
+      "covers_per_table": 1,
+      "tables": 30,
+      "max_wait_balk": 8,
+      "operating_hours": 4,
+      "description": "High-volume, low ticket. Customers very sensitive to wait time."
+    },
+    "Casual Sit-Down (Applebee's-style)": {
+      "lam": 20,
+      "mu": 4,
+      "c": 5,
+      "hourly_labor_cost": 22,
+      "revenue_per_cover": 28,
+      "covers_per_table": 2,
+      "tables": 20,
+      "max_wait_balk": 20,
+      "operating_hours": 4,
+      "description": "Medium volume, medium ticket. Guests more tolerant of wait."
+    },
+    "Fine Dining": {
+      "lam": 8,
+      "mu": 1.5,
+      "c": 6,
+      "hourly_labor_cost": 35,
+      "revenue_per_cover": 90,
+      "covers_per_table": 2,
+      "tables": 12,
+      "max_wait_balk": 30,
+      "operating_hours": 4,
+      "description": "Low volume, high ticket. Service is slow by design."
+    },
+    "Coffee Shop (Morning Rush)": {
+      "lam": 60,
+      "mu": 30,
+      "c": 2,
+      "hourly_labor_cost": 17,
+      "revenue_per_cover": 6,
+      "covers_per_table": 1,
+      "tables": 50,
+      "max_wait_balk": 5,
+      "operating_hours": 3,
+      "description": "Very high volume, low ticket. Speed is everything."
+    }
+  }
+}

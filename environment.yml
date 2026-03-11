@@ -1,0 +1,14 @@
+name: tableflow
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit>=1.32
+      - simpy>=4.1
+      - plotly>=5.19
+      - numpy>=1.26
+      - pandas>=2.2
+      - scipy>=1.12
