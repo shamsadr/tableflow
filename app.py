@@ -165,11 +165,10 @@ st.markdown("""
   #MainMenu, footer, header { visibility: hidden; }
   .block-container { padding-top: 1rem; }
 
-  /* Permanently hide sidebar collapse button */
-    [data-testid="collapsedControl"] {
-      visibility: hidden !important;
-      pointer-events: none !important;
-    }
+  /* Hide sidebar collapse button without breaking sidebar interactivity */
+  [data-testid="collapsedControl"] button {
+      display: none !important;
+  }
   </style>
 """, unsafe_allow_html=True)
 
